@@ -1,5 +1,5 @@
 # ouvirecantarmusicas
-selecão de músicas de forma aleatória pra ouvir e cantar
+Selecão de músicas de forma aleatória pra ouvir e cantar
 
 Esse é um projeto onde estou aprendendo a fazer páginas do zero...
 
