@@ -156,7 +156,7 @@ function randomize() {
     let choicedList = [] //lista de valores já escolhidos
     let findChoiced //valor já escolhido?
     document.querySelector('h1').innerText = 'Tudo certo...'
-    document.querySelector('h2').innerText = 'Agora é só adorar o senhor'
+    document.querySelector('h3').innerText = 'Agora é só adorar o senhor'
     result.innerText = ' '
     if (amountDraw > sizeList - 7) {
         alert(`O número escolhido é maior que a quantidade de músicas...
