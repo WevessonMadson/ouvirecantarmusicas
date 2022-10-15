@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escolha de músicas</title>
+    <link rel="shortcut icon" href="icon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="principal.css">
+    <script src="principal.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>Bem vindo!</h1>
+        <h3>Escolha a quantidade de músicas e quem as cantam.</h3>
+    </header>
+    <section>
+        <div>
+            <p>
+                Quantidade:
+                <input type="number" name="textDraw" id="textDraw" min="1" value="1">|
+                <label for="singers">Cantoras:</label>
+                <input type="checkbox" class="singers" name="singerAll" id="singerAll"><label for="singerAll" class="singers">Todas</label>
+                <input type="checkbox" class="singers" name="singer1" id="singer1"><label for="singer1" class="singers">Amanda</label>
+                <input type="checkbox" class="singers" name="singer2" id="singer2"><label for="singer2" class="singers">Camila</label>
+                <input type="checkbox" class="singers" name="singer3" id="singer3"><label for="singer3" class="singers">Bruna</label>
+            </p>
+            <p>
+                <input type="button" value="Gerar as músicas" onclick="randomize()" id="button">
+                <img src="refresh.png" alt="imagem pra atualizar a página" id="refresh" onclick="refresh()">
+            </p>
+        </div>
+        <div id="result">
+            Preencha os dados acima para ver as músicas!
+        </div>
+    </section>
+    <footer>
+        <p>&copy;MadsonGustavo</p>
+    </footer>
+
+</body>
+
+</html>
