@@ -169,7 +169,7 @@ function randomize() {
         location.reload()
     } else if (musicFilters.length <= amountDraw) {
         for (let cont = 0; cont <= musicFilters.length; cont++) {
-            result.innerHTML += `<p>${cont + 1} - ${musicFilters[cont].description}<a href=${musicFilters[cont].url} target="_blank" style="text-decoration: none; color: black"><img src=""><img src="youtube2.png" alt="imagem da logo do youtube que é um link para a música selecionada ao lado."></a><br><span style="margin-left: 30px;"> - ${musicFilters[cont].singer}</span><hr></p>`
+            result.innerHTML += `<p>${cont + 1} - ${musicFilters[cont].description}<a href=${musicFilters[cont].url} target="_blank" style="text-decoration: none; color: black"><img src=""><img src="./assets/youtube2.png" alt="imagem da logo do youtube que é um link para a música selecionada ao lado."></a><br><span style="margin-left: 30px;"> - ${musicFilters[cont].singer}</span><hr></p>`
         }
     } else {
         do {
@@ -179,7 +179,7 @@ function randomize() {
                 if (findChoiced == undefined) {
                     choicedList.push(choiceRandon)
                     amountChoiced = choicedList.length
-                    result.innerHTML += `<p>${amountChoiced} - ${choicedList[amountChoiced - 1].description}<a href=${choicedList[amountChoiced - 1].url} target="_blank" style="text-decoration: none; color: black"><img src=""><img src="youtube2.png" alt="imagem da logo do youtube que é um link para a música selecionada ao lado."></a><br><span style="margin-left: 30px;"> - ${choicedList[amountChoiced - 1].singer}</span><hr></p>`
+                    result.innerHTML += `<p>${amountChoiced} - ${choicedList[amountChoiced - 1].description}<a href=${choicedList[amountChoiced - 1].url} target="_blank" style="text-decoration: none; color: black"><img src=""><img src="./assets/youtube2.png" alt="imagem da logo do youtube que é um link para a música selecionada ao lado."></a><br><span style="margin-left: 30px;"> - ${choicedList[amountChoiced - 1].singer}</span><hr></p>`
                 }
             }
         } while (amountChoiced < amountDraw)

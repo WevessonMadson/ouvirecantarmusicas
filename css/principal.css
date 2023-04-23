@@ -76,3 +76,7 @@ section {
 .singers:hover{
     cursor: pointer;
 }
+
+#redes img {
+    width: 50px;
+}
