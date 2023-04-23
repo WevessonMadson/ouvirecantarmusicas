@@ -18,10 +18,10 @@
 
 ## Funcionalidades
 
-- Escolha de músicas aleatórias, como fazer:
-1- Escolha quantas músicas deseja que sejam escolhidas;
-2- Selecione quem as canta, ou "todas";
-3- Clique em "Gerar as músicas";
+- Escolha de músicas aleatórias, como fazer:<br>
+1- Escolha quantas músicas deseja que sejam escolhidas;<br>
+2- Selecione quem as canta, ou "todas";<br>
+3- Clique em "Gerar as músicas";<br>
 
 obs.: Será gerada uma lista com as músicas e um link pra ouvir no youtube;
 
