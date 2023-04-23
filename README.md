@@ -1,15 +1,9 @@
-Selecão de músicas de forma aleatória pra ouvir e cantar
-
-Esse é um projeto onde estou aprendendo a fazer páginas do zero...
-
-A ideia é pegar listas de músicas e filtrá-las de acordo com algumas propriedades especificas, pode servir de brincadeira entre amigos, algumas músicas aleatórias para cantarem ou também pra você ouvir na plataforma youtube.
-
-
 # Ouvir e Cantar Músicas 
 
 - Projeto construído à pedido de um amigo: Itamar...
-- Tem algumas músicas gospel cadastradas, que são geradas de forma aleatória;
+- Tem algumas músicas gospel cadastradas, que são escolhidas de forma aleatória;
 - Pra acessar é possível com usuário: Admin e senha: admin;
+- A ideia é pegar listas de músicas e filtrá-las de acordo com algumas propriedades especificas, pode servir de brincadeira entre amigos, algumas músicas aleatórias para cantarem ou também pra você ouvir na plataforma youtube;
 
 
 [🔗 Clique aqui para acessar](https://wevessonmadson.github.io/ouvirecantarmusicas/)
